@@ -2,8 +2,7 @@ from math import ceil
 
 import numpy as np
 
-from src.cec2017.des import DES
-from src.cec2017.wrapper import cec2017, init, save_results
+from wrapper import cec2017, init, save_results
 
 
 def single_evaluation(i, n):
