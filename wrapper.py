@@ -63,9 +63,9 @@ def root_path(*args):
 
 
 def cec2017(i, x):
-    if EVAL_LIMIT - ITERATION[i] <= 0:
+#     if EVAL_LIMIT - ITERATION[i] <= 0:
         #print("Max number of iteration reached")
-        return None
+#         return None
     ITERATION[i] = ITERATION[i] + 1
     assert isinstance(i, int)
     if i < 1 or i > 30:
